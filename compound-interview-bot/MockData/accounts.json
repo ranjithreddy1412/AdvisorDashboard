@@ -1,0 +1,31 @@
+[
+   {
+      "id": "1",
+      "name": "Bradley Green - 401k",
+      "number": "21889645",
+      "repId": "9883",
+      "holdings": [
+         {
+            "ticker": "HEMCX",
+            "units": 77,
+            "unitPrice": 398.63
+         }
+      ],
+      "custodian": "Schwab"
+   },
+   {
+      "id": "2",
+      "name": "Bradley Green - 401k",
+      "number": "21889645",
+      "repId": "8996",
+      "holdings": [
+         {
+            "ticker": "HEMCX",
+            "units": 77,
+            "unitPrice": 398.63
+         }
+      ],
+      "custodian": "Fidelity"
+   }
+]
+

@@ -1,0 +1,83 @@
+[
+   {
+      "id": "4",
+      "name": "Randall",
+      "custodians": [
+         { "name": "Schwab", "repId": "1271" },
+         { "name": "Fidelity", "repId": "8996" }
+      ],
+      "accounts": [
+         {
+            "name": "Bradley Green - 401k",
+            "number": "21889645",
+            "repId": "9883",
+            "holdings": [
+               { "ticker": "HEMCX", "units": 77, "unitPrice": 398.63 },
+               { "ticker": "AAPL", "units": 25, "unitPrice": 145.32 }
+            ],
+            "custodian": "Schwab"
+         },
+         {
+            "name": "Investment Portfolio",
+            "number": "21889646",
+            "repId": "8996",
+            "holdings": [
+               { "ticker": "GOOGL", "units": 10, "unitPrice": 2789.12 },
+               { "ticker": "MSFT", "units": 15, "unitPrice": 312.15 }
+            ],
+            "custodian": "Fidelity"
+         }
+      ]
+   },
+   {
+      "id": "3",
+      "name": "Ranjith",
+      "custodians": [
+         { "name": "JPMC", "repId": "3456" },
+         { "name": "USBANK", "repId": "1234" },
+         { "name": "Schwab", "repId": "9883" }
+      ],
+      "accounts": [
+         {
+            "name": "Retirement Fund",
+            "number": "11223344",
+            "repId": "3456",
+            "holdings": [
+               { "ticker": "AMZN", "units": 5, "unitPrice": 3350.00 },
+               { "ticker": "TSLA", "units": 8, "unitPrice": 750.50 }
+            ],
+            "custodian": "JPMC"
+         },
+         {
+            "name": "Wealth Growth",
+            "number": "55667788",
+            "repId": "1234",
+            "holdings": [
+               { "ticker": "NVDA", "units": 12, "unitPrice": 221.45 },
+               { "ticker": "META", "units": 20, "unitPrice": 330.10 }
+            ],
+            "custodian": "USBANK"
+         }
+      ]
+   },
+   {
+      "id": "2",
+      "name": "Sophia",
+      "custodians": [
+         { "name": "Goldman Sachs", "repId": "5678" }
+      ],
+      "accounts": [
+         {
+            "name": "High Net Worth Fund",
+            "number": "44556677",
+            "repId": "5678",
+            "holdings": [
+               { "ticker": "NFLX", "units": 30, "unitPrice": 690.78 },
+               { "ticker": "AMD", "units": 40, "unitPrice": 110.23 }
+            ],
+            "custodian": "Goldman Sachs"
+         }
+      ]
+   }
+]
+
