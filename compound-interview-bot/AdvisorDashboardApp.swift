@@ -8,10 +8,10 @@
 import SwiftUI
 
 @main
-struct compound_interview_botApp: App {
+struct AdvisorDashboardApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            AdvisorListView()
         }
     }
 }
