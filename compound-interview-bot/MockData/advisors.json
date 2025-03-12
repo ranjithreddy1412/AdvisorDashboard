@@ -12,7 +12,7 @@
             "number": "21889645",
             "repId": "9883",
             "holdings": [
-               { "ticker": "HEMCX", "units": 77, "unitPrice": 398.63 },
+               { "ticker": "HEMCX", "units": 7, "unitPrice": 398.63 },
                { "ticker": "AAPL", "units": 25, "unitPrice": 145.32 }
             ],
             "custodian": "Schwab"
@@ -22,8 +22,8 @@
             "number": "21889646",
             "repId": "8996",
             "holdings": [
-               { "ticker": "GOOGL", "units": 10, "unitPrice": 2789.12 },
-               { "ticker": "MSFT", "units": 15, "unitPrice": 312.15 }
+               { "ticker": "GOOGL", "units": 100, "unitPrice": 2789.12 },
+               { "ticker": "MSFT", "units": 150, "unitPrice": 312.15 }
             ],
             "custodian": "Fidelity"
          }
@@ -43,8 +43,8 @@
             "number": "11223344",
             "repId": "3456",
             "holdings": [
-               { "ticker": "AMZN", "units": 5, "unitPrice": 3350.00 },
-               { "ticker": "TSLA", "units": 8, "unitPrice": 750.50 }
+               { "ticker": "AMZN", "units": 50, "unitPrice": 3350.00 },
+               { "ticker": "TSLA", "units": 80, "unitPrice": 750.50 }
             ],
             "custodian": "JPMC"
          },
@@ -78,6 +78,65 @@
             "custodian": "Goldman Sachs"
          }
       ]
+   },
+   {
+      "id": "9",
+      "name": "Michael",
+      "custodians": [
+         { "name": "Wells Fargo", "repId": "6789" },
+         { "name": "Citibank", "repId": "7890" }
+      ],
+      "accounts": [
+         {
+            "name": "Global Equity Fund",
+            "number": "77889900",
+            "repId": "6789",
+            "holdings": [
+               { "ticker": "BABA", "units": 105, "unitPrice": 120.45 },
+               { "ticker": "VISA", "units": 200, "unitPrice": 225.34 }
+            ],
+            "custodian": "Wells Fargo"
+         },
+         {
+            "name": "Tech Growth Fund",
+            "number": "88990011",
+            "repId": "7890",
+            "holdings": [
+               { "ticker": "TSMC", "units": 60, "unitPrice": 95.67 },
+               { "ticker": "INTC", "units": 250, "unitPrice": 48.12 }
+            ],
+            "custodian": "Citibank"
+         }
+      ]
+   },
+   {
+      "id": "10",
+      "name": "Emma",
+      "custodians": [
+         { "name": "Morgan Stanley", "repId": "5671" },
+         { "name": "Bank of America", "repId": "6782" }
+      ],
+      "accounts": [
+         {
+            "name": "Green Energy Fund",
+            "number": "99001122",
+            "repId": "5671",
+            "holdings": [
+               { "ticker": "PLUG", "units": 500, "unitPrice": 24.55 },
+               { "ticker": "ENPH", "units": 350, "unitPrice": 150.75 }
+            ],
+            "custodian": "Morgan Stanley"
+         },
+         {
+            "name": "Healthcare Portfolio",
+            "number": "11223344",
+            "repId": "6782",
+            "holdings": [
+               { "ticker": "PFE", "units": 400, "unitPrice": 39.23 },
+               { "ticker": "JNJ", "units": 180, "unitPrice": 165.78 }
+            ],
+            "custodian": "Bank of America"
+         }
+      ]
    }
 ]
-
